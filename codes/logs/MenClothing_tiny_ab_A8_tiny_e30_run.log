@@ -1,0 +1,84 @@
+Pre_Epoch 0 [2.9s]: train==[0.28972=0.23683 + 0.05288 + 0.00002]
+GateStats epoch=0 w_img=0.52090 w_txt=0.47910 q_img=0.55509 q_txt=0.48932
+D:\保研\夏令营资料\南开计算机 宋春瑶\MELON\codes\utility\batch_test.py:168: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  rel_score_tensor = torch.tensor(total_pos_rel_score_array, device=i_rate_batch.device, dtype=i_rate_batch.dtype)
+Pre_Epoch 0 [2.9s + 189.8s]:  val==[0.28972=0.23683 + 0.05288 + 0.00002]
+precision@10=[0.00180], recall@10=[0.01800] , ndcg@10=[0.00996]
+precision@20=[0.00160], recall@20=[0.03200] , ndcg@20=[0.01351]
+Pre_Epoch 1 [3.2s]: train==[0.23466=0.19925 + 0.03540 + 0.00002]
+GateStats epoch=1 w_img=0.50168 w_txt=0.49832 q_img=0.52529 q_txt=0.48871
+Pre_Epoch 2 [3.2s]: train==[0.22221=0.19110 + 0.03108 + 0.00002]
+GateStats epoch=2 w_img=0.52149 w_txt=0.47851 q_img=0.56999 q_txt=0.48420
+Pre_Epoch 3 [2.8s]: train==[0.20291=0.17286 + 0.03001 + 0.00003]
+GateStats epoch=3 w_img=0.54416 w_txt=0.45584 q_img=0.63598 q_txt=0.47846
+Pre_Epoch 4 [3.0s]: train==[0.17579=0.14764 + 0.02811 + 0.00005]
+GateStats epoch=4 w_img=0.56442 w_txt=0.43558 q_img=0.71094 q_txt=0.47043
+Pre_Epoch 5 [3.0s]: train==[0.16726=0.14071 + 0.02649 + 0.00007]
+GateStats epoch=5 w_img=0.58402 w_txt=0.41598 q_img=0.78325 q_txt=0.45923
+Pre_Epoch 5 [3.0s + 202.0s]:  val==[0.16726=0.14071 + 0.02649 + 0.00007]
+precision@10=[0.00160], recall@10=[0.01600] , ndcg@10=[0.00968]
+precision@20=[0.00160], recall@20=[0.03200] , ndcg@20=[0.01376]
+#####Early stopping steps: 1 #####
+Pre_Epoch 6 [2.9s]: train==[0.15608=0.13131 + 0.02469 + 0.00008]
+GateStats epoch=6 w_img=0.60198 w_txt=0.39802 q_img=0.84636 q_txt=0.44873
+Pre_Epoch 7 [2.8s]: train==[0.13982=0.11626 + 0.02346 + 0.00010]
+GateStats epoch=7 w_img=0.61579 w_txt=0.38421 q_img=0.88538 q_txt=0.43619
+Pre_Epoch 8 [3.1s]: train==[0.13017=0.10764 + 0.02241 + 0.00012]
+GateStats epoch=8 w_img=0.62640 w_txt=0.37360 q_img=0.91271 q_txt=0.42296
+Pre_Epoch 9 [2.8s]: train==[0.11715=0.09577 + 0.02126 + 0.00013]
+GateStats epoch=9 w_img=0.63385 w_txt=0.36615 q_img=0.93258 q_txt=0.40790
+Pre_Epoch 10 [2.7s]: train==[0.11317=0.09232 + 0.02071 + 0.00014]
+GateStats epoch=10 w_img=0.64057 w_txt=0.35943 q_img=0.95082 q_txt=0.39357
+Pre_Epoch 10 [2.7s + 182.2s]:  val==[0.11317=0.09232 + 0.02071 + 0.00014]
+precision@10=[0.00180], recall@10=[0.01800] , ndcg@10=[0.00925]
+precision@20=[0.00170], recall@20=[0.03400] , ndcg@20=[0.01333]
+Pre_Epoch 11 [2.9s]: train==[0.10866=0.08859 + 0.01993 + 0.00015]
+GateStats epoch=11 w_img=0.64696 w_txt=0.35304 q_img=0.96409 q_txt=0.37741
+Pre_Epoch 12 [3.2s]: train==[0.10239=0.08263 + 0.01961 + 0.00016]
+GateStats epoch=12 w_img=0.65373 w_txt=0.34627 q_img=0.97316 q_txt=0.36136
+Pre_Epoch 13 [2.5s]: train==[0.09436=0.07504 + 0.01915 + 0.00017]
+GateStats epoch=13 w_img=0.66034 w_txt=0.33966 q_img=0.98085 q_txt=0.34474
+Pre_Epoch 14 [2.7s]: train==[0.08871=0.06982 + 0.01871 + 0.00018]
+GateStats epoch=14 w_img=0.66637 w_txt=0.33363 q_img=0.98604 q_txt=0.32688
+Pre_Epoch 15 [2.6s]: train==[0.08566=0.06719 + 0.01828 + 0.00019]
+GateStats epoch=15 w_img=0.67152 w_txt=0.32848 q_img=0.98907 q_txt=0.31169
+Pre_Epoch 15 [2.6s + 159.9s]:  val==[0.08566=0.06719 + 0.01828 + 0.00019]
+precision@10=[0.00240], recall@10=[0.02400] , ndcg@10=[0.01192]
+precision@20=[0.00180], recall@20=[0.03600] , ndcg@20=[0.01497]
+Pre_Epoch 16 [2.0s]: train==[0.08374=0.06571 + 0.01783 + 0.00020]
+GateStats epoch=16 w_img=0.67431 w_txt=0.32569 q_img=0.99137 q_txt=0.29895
+Pre_Epoch 17 [1.8s]: train==[0.08130=0.06340 + 0.01769 + 0.00021]
+GateStats epoch=17 w_img=0.67785 w_txt=0.32215 q_img=0.99313 q_txt=0.28080
+Pre_Epoch 18 [1.8s]: train==[0.07562=0.05810 + 0.01730 + 0.00021]
+GateStats epoch=18 w_img=0.68044 w_txt=0.31956 q_img=0.99424 q_txt=0.26724
+Pre_Epoch 19 [1.8s]: train==[0.07357=0.05636 + 0.01699 + 0.00022]
+GateStats epoch=19 w_img=0.68486 w_txt=0.31514 q_img=0.99504 q_txt=0.25282
+Pre_Epoch 20 [1.8s]: train==[0.06767=0.05097 + 0.01648 + 0.00023]
+GateStats epoch=20 w_img=0.68779 w_txt=0.31221 q_img=0.99587 q_txt=0.24025
+Pre_Epoch 20 [1.8s + 129.0s]:  val==[0.06767=0.05097 + 0.01648 + 0.00023]
+precision@10=[0.00180], recall@10=[0.01800] , ndcg@10=[0.01079]
+precision@20=[0.00170], recall@20=[0.03400] , ndcg@20=[0.01479]
+#####Early stopping steps: 1 #####
+Pre_Epoch 21 [1.8s]: train==[0.06820=0.05149 + 0.01647 + 0.00024]
+GateStats epoch=21 w_img=0.69193 w_txt=0.30807 q_img=0.99618 q_txt=0.22600
+Pre_Epoch 22 [2.1s]: train==[0.06230=0.04587 + 0.01618 + 0.00025]
+GateStats epoch=22 w_img=0.69467 w_txt=0.30533 q_img=0.99656 q_txt=0.21341
+Pre_Epoch 23 [1.8s]: train==[0.05993=0.04405 + 0.01563 + 0.00025]
+GateStats epoch=23 w_img=0.69756 w_txt=0.30244 q_img=0.99682 q_txt=0.20182
+Pre_Epoch 24 [1.9s]: train==[0.06010=0.04427 + 0.01558 + 0.00026]
+GateStats epoch=24 w_img=0.69916 w_txt=0.30084 q_img=0.99705 q_txt=0.19278
+Pre_Epoch 25 [2.1s]: train==[0.05829=0.04247 + 0.01556 + 0.00027]
+GateStats epoch=25 w_img=0.70176 w_txt=0.29824 q_img=0.99726 q_txt=0.18195
+Pre_Epoch 25 [2.1s + 123.6s]:  val==[0.05829=0.04247 + 0.01556 + 0.00027]
+precision@10=[0.00220], recall@10=[0.02200] , ndcg@10=[0.01184]
+precision@20=[0.00180], recall@20=[0.03600] , ndcg@20=[0.01532]
+#####Early stopping steps: 2 #####
+Pre_Epoch 26 [1.8s]: train==[0.05288=0.03755 + 0.01505 + 0.00027]
+GateStats epoch=26 w_img=0.70391 w_txt=0.29609 q_img=0.99749 q_txt=0.17309
+Pre_Epoch 27 [1.8s]: train==[0.05205=0.03684 + 0.01493 + 0.00028]
+GateStats epoch=27 w_img=0.70591 w_txt=0.29409 q_img=0.99760 q_txt=0.16492
+Pre_Epoch 28 [1.7s]: train==[0.05268=0.03755 + 0.01485 + 0.00028]
+GateStats epoch=28 w_img=0.70759 w_txt=0.29241 q_img=0.99756 q_txt=0.15737
+Pre_Epoch 29 [1.8s]: train==[0.04981=0.03483 + 0.01470 + 0.00029]
+GateStats epoch=29 w_img=0.70911 w_txt=0.29089 q_img=0.99770 q_txt=0.14946
+Final  {'precision': array([0.0028, 0.0021]), 'recall': array([0.02666667, 0.04066667]), 'ndcg': array([0.01325288, 0.01685407]), 'auc': 0.0}

@@ -1,0 +1,20 @@
+name: melon
+channels:
+  - pyg
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - numpy=1.23.*
+  - pandas=1.5.*
+  - scipy=1.10.*
+  - tqdm
+  - pytorch=1.10.2
+  - cudatoolkit=11.3
+  - torch-geometric=2.0.3
+  - pyg=2.0.3
+  - pip:
+      - gensim==3.8.3
+      - sentence-transformers==2.2.0

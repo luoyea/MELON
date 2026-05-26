@@ -1,0 +1,4 @@
+*.npy filter=lfs diff=lfs merge=lfs -text
+codes/models/* filter=lfs diff=lfs merge=lfs -text
+codes/data/MenClothing/** filter=lfs diff=lfs merge=lfs -text
+codes/data/MenClothing_tiny filter=lfs diff=lfs merge=lfs -text
